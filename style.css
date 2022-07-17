@@ -1,9 +1,14 @@
-
-/*/
+/*
 body{
-    padding: 0px 200px;
+    width :80%;
+    margin: auto;
 }
 */
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -30,8 +35,9 @@ a{
 }
 
 .pic {
-    height:100px;
-    width: 200px;
+    display: flex;
+    height:800px;
+    width: 900px;
 }
 
 .first{
@@ -39,13 +45,16 @@ a{
     flex-wrap: nowrap;
     flex-shrink: 1;
     align-items: center;
-    height: 300px;
+    height: 500px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .in{
+    display: flex;
     margin-right: 30px ;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .upper{
@@ -60,8 +69,11 @@ h2{
 }
 
 .in p{
+    display: flex;
+    flex-wrap: wrap;
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 600px;
 }
 
 .logo {
@@ -70,5 +82,107 @@ h2{
 }
 
 button{
+        background-color: #3882F6;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 12px;
+        font-weight: bold;
+        margin: 20px 15px;
+}
+
+.first button{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 24;
+}
+
+h3{
+    text-align: center;
+    font-size: 36px ;
+    font-weight: bolder ;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.box{
+    border: 3px solid #3882F6;  
+    border-radius: 12px;  
+    height: 150px;
+    width: 150px;
+}
+
+.mid-bot{
+    display: flex;
+    width: auto;
+    height: 350px;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote{ 
+    text-align: center;
+    margin-top: 70px;
+    font-size: 36px;
+}
+
+.writer{
+    font-size: 36px;
+    text-align: end;
+    margin-right: 80px;
+}
+
+.blue{
+    display: flex;
+    width: 70%;
     background-color: #3882F6;
+    border-radius: 12px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px auto;
+    height: 200px;
+}
+
+.bout{
+    border: 2px solid white;
+}
+
+.text{
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.bol{
+    font-size: 28px;
+}
+
+.foot{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4{
+
+
+background-color: rgb(110, 21, 21);
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
 }
