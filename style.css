@@ -1,139 +1,123 @@
-/*
-body{
-    width :80%;
-    margin: auto;
-}
-*/
+/* nav-bar */
 *{
     margin: 0;
-    padding: 0 ;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-   }
-/*.logo { 
-    height: 75px;
-    width: 75px;
-}
-*/
-.topnav{
+ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    padding: 20px 0px;
+    list-style: none;
+    padding: 30px 100px;
+    gap: 30px;
+    background-color: #1F2937;
 }
 
 a{
     text-decoration: none;
-    color: rgb(44, 9, 9);
 }
 
-.pic {
+
+.left {
     display: flex;
-    height:800px;
-    width: 900px;
+    gap: 20px;
 }
+
+/* text and place holder */
+
 
 .first{
     display: flex;
-    flex-wrap: nowrap;
-    flex-shrink: 1;
+    justify-content: space-between;
     align-items: center;
-    height: 500px;
-    width: 100%;
-    justify-content: center;
-}
-
-.in{
-    display: flex;
-    margin-right: 30px ;
     flex-wrap: wrap;
-    align-items: center;
-}
-
-.upper{
+    padding: 100px;
     background-color: #1F2937;
-    color: #F9FAF8;
-
+    gap: 70px;
 }
 
-h2{
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.in p{
-    display: flex;
-    flex-wrap: wrap;
-    color: #E5E7EB;
+.text-one {
     font-size: 18px;
     max-width: 600px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
+h2{
+    font-size: 48px;
 }
 
 button{
-        background-color: #3882F6;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 12px;
-        font-weight: bold;
-        margin: 20px 15px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin: 20px 0px;
 }
 
-.first button{
+
+.placeholder{
+    flex: 1 0 auto;
+    background-color: rgb(109, 116, 126);
+    height: 60vh;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 24;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 h3{
     text-align: center;
     font-size: 36px ;
     font-weight: bolder ;
+    margin-bottom: 50px;
 
 }
 
-.mid{
+/* information */
+
+
+.informations{
+    margin: 50px 0px;
+}
+
+.boxes{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 48px;
+    
 }
 
-.box{
+.box {
     border: 3px solid #3882F6;  
     border-radius: 12px;  
     height: 150px;
     width: 150px;
 }
 
-.mid-bot{
-    display: flex;
-    width: auto;
-    height: 350px;
-    margin-top: 50px;
+.boxes p {
+    width: 150px;
+    text-align: center;
+}
+/* Quote */
+
+
+.quotation{
+    padding: 100px 100px;
     background-color: #E5E7EB;
-    flex-direction: column;
 }
 
 .quote{ 
-    text-align: center;
-    margin-top: 70px;
+    text-align: justify;
     font-size: 36px;
 }
 
@@ -143,46 +127,57 @@ h3{
     margin-right: 80px;
 }
 
-.blue{
+/* Sign up button */
+
+.sign-up{
     display: flex;
     width: 70%;
     background-color: #3882F6;
     border-radius: 12px;
-    margin: auto;
     justify-content: space-around;
     align-items: center;
     margin: 200px auto;
     height: 200px;
+    flex-wrap: wrap;
+
 }
 
-.bout{
+.sign-up button{
     border: 2px solid white;
 }
 
 .text{
-    color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    margin: 10px 20px;
 }
 
-.bol{
+h4{
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.foot{
+/* footer */
+
+footer{
     background-color: #1F2937;
-    color: #E5E7EB;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section4{
+/* Fonts */
 
+h2 , h3 , .writer , h4 {
+    font-family: 'roboto-Bold' , Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
 
-background-color: rgb(110, 21, 21);
-text-align: center;
-padding-top: 30px;
-padding-bottom: 30px;
+ul , .first , .sign-up , footer , a:visited {
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
