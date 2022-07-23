@@ -129,7 +129,7 @@ h3{
 .quotation{
     padding: 100px 100px;
     background-color: #E5E7EB;
-    background: url(/quote.JPG) no-repeat center center fixed;
+    background: url(img/quote.JPG) no-repeat center center fixed;
     background-size: cover;
 }
 
